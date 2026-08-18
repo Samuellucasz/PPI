@@ -1,0 +1,42 @@
+Exercícios — Cineteca
+
+1. Adicionar uma informação ao filme
+No arquivo src/data/filmes.js, acrescente um novo campo em cada filme
+(por exemplo genero, diretor ou nota). Depois, mostre essa informação
+dentro do cartão, no arquivo src/components/CartaoFilme.jsx.
+Objetivo: perceber que os dados chegam ao cartão pelas props e que, para
+exibir algo novo, basta usar filme.nomeDoCampo.
+
+
+2. Mostrar o total de filmes
+No arquivo src/App.jsx, exiba um texto informando quantos filmes existem
+na lista, usando filmes.length. Exemplo: "Total de filmes: 6".
+Objetivo: entender que a lista de filmes é um array comum de JavaScript.
+
+
+3. Criar um componente de rodapé
+Crie um novo componente chamado Rodape (arquivo src/components/Rodape.jsx)
+que mostre um texto simples, como o seu nome e o ano. Importe e use esse
+componente no fim do App.
+Objetivo: praticar como criar um componente do zero e usá-lo dentro de outro.
+
+
+4. Prop para mostrar ou esconder o ano
+Faça o CartaoFilme receber uma nova prop chamada mostrarAno (com valor true ou false). Quando for false, o ano do filme não deve aparecer no cartão.
+Objetivo: ver como as props podem controlar o que é exibido na tela.
+
+
+5. Botão de curtir
+Adicione em cada cartão um contador de curtidas usando useState. Ele começa em 0 e, a cada clique no botão "Curtir", aumenta em 1. Mostre o número de
+curtidas ao lado do botão.
+Objetivo: praticar o estado (useState) para guardar e atualizar um valor que muda com a interação do usuário.
+
+
+6. Criar uma terceira tela na navegação
+Hoje o menu tem duas telas: "Filmes" e "Sobre". Crie uma terceira tela
+chamada "Contato" (arquivo src/components/PaginaContato.jsx) com um texto
+simples, por exemplo um e-mail. Depois:
+- adicione um botão "Contato" no menu, dentro do App.jsx;
+- faça esse botão chamar setTela('contato');
+- mostre a nova página quando tela === 'contato'.
+

@@ -1,0 +1,112 @@
+/* ======================================================
+   Estilos da Cineteca — CSS puro e simples.
+   ====================================================== */
+
+/* Área geral da aplicação, centralizada na página. */
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+/* Cabeçalho no topo. */
+.cabecalho {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.cabecalho h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.cabecalho p {
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Menu de navegação, com os botões centralizados. */
+.menu {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.menu-botao {
+  padding: 8px 20px;
+  border: 1px solid #4361ee;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #4361ee;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* O botão da tela ATIVA fica preenchido, para o usuário saber onde está. */
+.menu-botao.ativo {
+  background-color: #4361ee;
+  color: #fff;
+}
+
+/* Tela "Sobre": um texto centralizado e com largura limitada. */
+.sobre {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+}
+
+/* A lista usa Flexbox para colocar os cartões LADO A LADO.
+   "flex-wrap: wrap" faz os cartões pularem de linha quando não couberem. */
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* Cada cartão de filme. */
+.cartao {
+  width: 220px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.cartao-titulo {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.cartao-ano {
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.cartao-status {
+  font-weight: bold;
+  margin: 0 0 16px 0;
+}
+
+/* Botão que alterna o estado "assistido". */
+.cartao-botao {
+  margin-top: auto; /* empurra o botão para a base do cartão */
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4361ee;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cartao-botao:hover {
+  background-color: #3048c0;
+}
