@@ -1,0 +1,54 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "email": "maria@email.com",
+      "cpf": "123.456.789-00",
+      "data_nascimento": "2007-05-14",
+      "endereco": "Rua das Flores, 123 - Pau dos Ferros/RN"
+    },
+    {
+      "nome": "Samuel Lucas dos Santos Oliveira",
+      "email": "samuel.santos1@escolar.ifrn.edu.br",
+      "cpf": "123.654.987-00",
+      "data_nascimento": "2008-04-08",
+      "endereco": "Rua Mimosa, 456 - Bairro Vaca Magra - Pindamonhangaba - Rio Grande do Leste",
+      "id": 2
+    },
+    {
+      "nome": "Lucas Gabriel",
+      "email": "lucas.gabriel@escolar.ifrn.edu.br",
+      "cpf": "987.654.321-00",
+      "data_nascimento": "2009-01-15",
+      "endereco": "Rua Passa e Fica, 789 - Bairro Vaca Magra - Pindamonhangaba - Rio Grande do Leste",
+      "id": 3
+    },
+    {
+      "nome": "Francisco Luan",
+      "email": "francisco.luan@escolar.ifrn.edu.br",
+      "cpf": "518.654.321-00",
+      "data_nascimento": "2007-07-21",
+      "endereco": "Rua Trancoso, 101 - Bairro Vaca Magra - Pindamonhangaba - Rio Grande do Leste",
+      "id": 4
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Jeferson Queiroga",
+      "email": "jeferson.queiroga@escolar.ifrn.edu.br",
+      "cpf": "742.758.252-00",
+      "disciplina": "Informática",
+      "data_admissao": "2014-05-14"
+    },
+    {
+      "nome": "Ciro Daniel Gurgel Moura ",
+      "email": "ciromoura@escolar.ifrn.edu.br",
+      "cpf": "561.503.102-00",
+      "disciplina": "Azilância",
+      "data_admissao": "2015-12-06",
+      "id": 2
+    }
+  ]
+}
